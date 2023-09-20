@@ -17,7 +17,7 @@ export default function Home() {
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 md:mr-16 md:mb-8">
             <img
-              src="src/image/seo-analytics.jpg?w=2000"
+              src="./seo-analytics.jpg?w=2000"
               alt="Website Image"
               className="w-full h-full rounded-lg"
             />

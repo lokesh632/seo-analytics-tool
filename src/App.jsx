@@ -1,6 +1,8 @@
 import { Outlet, createBrowserRouter } from "react-router-dom";
+
 import Home from "./pages/Home";
 import Report from "./pages/Report";
+import Header from "./components/Header";
 
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
@@ -25,6 +27,7 @@ const router = createBrowserRouter([
 function AppLayout() {
   return (
     <>
+      <Header />
       <Outlet />
       <ToastContainer
         position="top-center"
